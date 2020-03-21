@@ -1,0 +1,96 @@
+{
+    "firstName": "Justin",
+    "lastName": "Conklin",
+    "title": "Software Engineer",
+    "currentLocation": "Cleveland, OH",
+    "social": [
+        {
+            "id": "github",
+            "username": "eyev"
+        },
+        {
+            "id": "linkedin",
+            "username": "justconklin"
+        },
+        {
+            "id": "twitter",
+            "username": "eyev"
+        }
+    ],
+    "experience": [
+        {
+            "location": "Cleveland, OH",
+            "date": "2019-Present",
+            "company": "Park Place Technologies",
+            "position": "Developer III",
+            "accomplishments": [
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project"
+            ]
+        },
+        {
+            "location": "Akron, OH",
+            "date": "2013-2019",
+            "company": "WiredViews Inc.",
+            "position": "Front End Developer, Lead UX Designer/Developer",
+            "accomplishments": [
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project"
+            ]
+        },
+        {
+            "location": "Vandenberg AFB, CA",
+            "date": "2008-2012",
+            "company": "United States Air Force",
+            "position": "Law Enforcement Patrolmen",
+            "accomplishments": [
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project",
+                "I did some dope shit, for a dope project"
+            ]
+        }
+    ],
+    "technologies": {
+        "languages": [
+            "javascript",
+            "typescript",
+            "html",
+            "css",
+            "sass",
+            "less",
+            "csharp"
+        ],
+        "frameworks": [
+            "nodejs",
+            "angular",
+            "svelte",
+            "webpack",
+            "mocha",
+            "expressjs",
+            "bootstrap",
+            "gulp",
+            "nginx",
+            "jquery",
+            "trello",
+            "illustrator",
+            "photoshop",
+            "mssql"
+        ]
+    },
+    "projects": [
+        {
+            "title": "nba.ts",
+            "technologies": [
+                "typescript",
+                "nodejs"
+            ],
+            "url": "https://github.com/eyev",
+            "description": "lorem"
+        }
+    ]
+}
