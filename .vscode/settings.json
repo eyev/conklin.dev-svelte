@@ -21,6 +21,9 @@
   "[html]": {
     "editor.formatOnSave": true
   },
+  "[svelte]": {
+    "editor.formatOnSave": true
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
