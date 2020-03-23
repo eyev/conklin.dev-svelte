@@ -1,57 +1,36 @@
-<script>
-	export let segment;
-</script>
-
 <style>
-	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
-	}
-
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
-
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
+  nav {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 1.5rem;
+  }
+  nav ul li a {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--nav-link-color, #e0e0e0);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  @media (min-width: 576px) {
+    nav {
+      display: flex;
+    }
+  }
 </style>
 
 <nav>
-	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='#experience'>experience</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='#technologies'>technologies</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='#projects'>projects</a></li>
-	</ul>
+  <ul>
+    <li>
+      <a href="#experience">experience</a>
+    </li>
+    <li>
+      <a href="#technologies">technologies</a>
+    </li>
+    <li>
+      <a href="#projects">projects</a>
+    </li>
+  </ul>
 </nav>
