@@ -18,7 +18,7 @@
     background-color: var(--tooltip-background);
     color: var(--tooltip-color);
     text-align: center;
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
     border-radius: 0.25rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     position: absolute;
