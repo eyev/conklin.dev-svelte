@@ -1,0 +1,151 @@
+{
+    "firstName": "Justin",
+    "lastName": "Conklin",
+    "title": "Software Engineer",
+    "currentLocation": "Cleveland, OH",
+    "social": [
+        {
+            "id": "github",
+            "username": "eyev"
+        },
+        {
+            "id": "linkedin",
+            "username": "justconklin"
+        },
+        {
+            "id": "twitter",
+            "username": "eyev"
+        }
+    ],
+    "experience": [
+        {
+            "location": "Cleveland, OH",
+            "date": "2019-Present",
+            "company": "Park Place Technologies",
+            "position": "Developer III",
+            "accomplishments": [
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project"
+            ]
+        },
+        {
+            "location": "Akron, OH",
+            "date": "2013-2019",
+            "company": "WiredViews Inc.",
+            "position": "Front End Developer, Lead UX Designer/Developer",
+            "accomplishments": [
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project"
+            ]
+        },
+        {
+            "location": "Vandenberg AFB, CA",
+            "date": "2008-2012",
+            "company": "United States Air Force",
+            "position": "Law Enforcement Patrolmen",
+            "accomplishments": [
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project",
+                "I did some dope stuff, for a dope project"
+            ]
+        }
+    ],
+    "technologies": {
+        "languages": [
+            {
+                "id": "javascript",
+                "name": "Javascript"
+            },
+            {
+                "id": "typescript",
+                "name": "Typescript"
+            },
+            {
+                "id": "html",
+                "name": "HTML"
+            },
+            {
+                "id": "css",
+                "name": "CSS"
+            },
+            {
+                "id": "sass",
+                "name": "Sass"
+            },
+            {
+                "id": "less",
+                "name": "LESS"
+            },
+            {
+                "id": "csharp",
+                "name": "C#"
+            }
+        ],
+        "frameworks": [
+            {
+                "id": "nodejs",
+                "name": "NodeJS"
+            },
+            {
+                "id": "angular",
+                "name": "Angular"
+            },
+            {
+                "id": "svelte",
+                "name": "Svelte / Sapper"
+            },
+            {
+                "id": "webpack",
+                "name": "Webpack"
+            },
+            {
+                "id": "expressjs",
+                "name": "Express.js"
+            },
+            {
+                "id": "bootstrap",
+                "name": "Bootstrap"
+            },
+            {
+                "id": "d3",
+                "name": "d3.js"
+            },
+            {
+                "id": "gulp",
+                "name": "Gulp"
+            },
+            {
+                "id": "nginx",
+                "name": "NGINX"
+            },
+            {
+                "id": "jquery",
+                "name": "jQuery"
+            },
+            {
+                "id": "illustrator",
+                "name": "Adobe Illustrator"
+            },
+            {
+                "id": "photoshop",
+                "name": "Photoshop"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "nba.ts",
+            "technologies": [
+                "typescript",
+                "nodejs"
+            ],
+            "url": "https://github.com/eyev",
+            "description": "lorem"
+        }
+    ]
+}
