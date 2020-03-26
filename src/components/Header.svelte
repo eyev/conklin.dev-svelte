@@ -16,6 +16,7 @@
     top: 0;
     background: #1f1f21;
     background: var(--body-background);
+    z-index: 1;
   }
   .logo {
     font-size: 1.5rem;
