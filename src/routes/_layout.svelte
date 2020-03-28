@@ -9,46 +9,49 @@
     box-sizing: border-box;
   }
   :global(:root) {
-    --body-background: #1f1f21;
-    --body-color: #e0e0e0;
+    --body-background: hsl(240, 3%, 13%);
+    --body-color: hsl(0, 0%, 88%);
     --logo-color: --body-color;
     /* header */
     --nav-link-color: --body-color;
     --theme-toggle-color: --body-color;
     /* SuperHero */
-    --superhero-name-color: #1ec966;
-    --superhero-social-github-color: #f5f5f5;
-    --superhero-social-hover-color: #fff;
-    --superhero-social-linkedin-color: #0077b5;
-    --superhero-social-twitter-color: #1da1f2;
+    --superhero-name-color: hsl(145, 74%, 45%);
+    --superhero-social-github-color: hsl(0, 0%, 96%);
+    --superhero-social-link-color: hsl(0, 0%, 73%);
+    --superhero-social-linkedin-color: hsl(201, 100%, 35%);
+    --superhero-social-twitter-color: hsl(203, 89%, 53%);
     --superhero-title-location-color: --body-color;
-
+    --superhero-social-link-hover-color: hsl(0, 0%, 100%);
     /* Experience */
     --experience-accomplishments-color: --body-color;
-    --experience-timeline-color: #525254;
+    --experience-timeline-color: hsl(240, 1%, 33%);
     /* Technologies */
-    --technologies-icon-color: #999;
-    --technologies-subheading-color: #999;
+    --technologies-icon-color: hsl(0, 0%, 60%);
+    --technologies-subheading-color: hsl(0, 0%, 60%);
     /* Tooltip */
-    --tooltip-background: rgba(31, 31, 33, 0.9);
+    --tooltip-background: hsla(0, 0%, 38%, 0.902);
     --tooltip-color: --body-color;
   }
   :global(:root .light) {
-    --body-background: #e0e0e0;
-    --body-color: #1f1f21;
-    --logo-color: #1f1f21;
+    --body-background: hsl(0, 0%, 88%);
+    --body-color: hsl(240, 3%, 13%);
+    --logo-color: hsl(240, 3%, 13%);
     /* SuperHero */
-    --superhero-social-github-color: #333;
-    --superhero-social-hover-color: #000;
+    --superhero-social-github-color: hsl(0, 0%, 20%);
+    --superhero-social-hover-color: hsl(0, 0%, 0%);
+    --superhero-social-link-color: hsl(240, 4%, 25%);
+    --superhero-social-link-hover-color: hsl(0, 0%, 0%);
+
     /* Experience */
-    --experience-accomplishments-color: #1f1f21;
-    --experience-timeline-color: #999;
+    --experience-accomplishments-color: hsl(240, 3%, 13%);
+    --experience-timeline-color: hsl(0, 0%, 60%);
     /* Technologies */
-    --technologies-icon-color: #555;
-    --technologies-subheading-color: #555;
+    --technologies-icon-color: hsl(0, 0%, 33%);
+    --technologies-subheading-color: hsl(0, 0%, 33%);
     /* Tooltip */
-    --tooltip-background: #3c3c3c;
-    --tooltip-color: #e0e0e0;
+    --tooltip-background: hsla(0, 0%, 38%, 0.902);
+    --tooltip-color: hsl(0, 0%, 88%);
   }
   :global(::selection) {
     background: #1ec966; /* WebKit/Blink Browsers */
