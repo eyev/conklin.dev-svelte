@@ -62,9 +62,12 @@
     font-size: 1.5rem;
     padding: 0.5rem;
     margin: 0;
+    color: hsl(0, 0%, 88%);
+    color: var(--superhero-social-link-color);
   }
   figure:hover {
     color: #fff;
+    color: var(--superhero-social-link-hover-color);
   }
   :global(.social-icon) {
     width: 2.25rem;
@@ -99,11 +102,13 @@
     {#each profile.social as socialProfile}
       <a
         href="{getSocialNetwork(socialProfile.id).route}{socialProfile.username}"
-        target="_blank">
+        target="_blank"
+      >
         <figure>
           <Icon
             class="social-icon {socialProfile.id}"
-            data={getSocialNetwork(socialProfile.id).icon} />
+            data="{getSocialNetwork(socialProfile.id).icon}"
+          />
           <span class="username">{socialProfile.username}</span>
         </figure>
       </a>
