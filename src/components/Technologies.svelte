@@ -14,8 +14,7 @@
   :global(.tech-icon) {
     width: 4rem;
     height: 4rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem;
     color: #999;
     color: var(--technologies-icon-color);
   }
@@ -46,20 +45,22 @@
   <h3>Languages & Supersets</h3>
   <div class="languages">
     {#each profile.technologies.languages as language}
-      <Tooltip bind:content={language.name}>
+      <Tooltip bind:content="{language.name}">
         <Icon
-          data={getTechnologyIcon(language.id)}
-          class="tech-icon {language.id}" />
+          data="{getTechnologyIcon(language.id)}"
+          class="tech-icon {language.id}"
+        />
       </Tooltip>
     {/each}
   </div>
   <h3>Frameworks, Libraries, & Tools</h3>
   <div class="frameworks">
     {#each profile.technologies.frameworks as framework}
-      <Tooltip bind:content={framework.name}>
+      <Tooltip bind:content="{framework.name}">
         <Icon
-          data={getTechnologyIcon(framework.id)}
-          class="tech-icon {framework.id}" />
+          data="{getTechnologyIcon(framework.id)}"
+          class="tech-icon {framework.id}"
+        />
       </Tooltip>
     {/each}
   </div>
