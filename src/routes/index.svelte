@@ -13,14 +13,16 @@
   import SuperHero from '../components/SuperHero.svelte';
   import Experience from '../components/Experience.svelte';
   import Technologies from '../components/Technologies.svelte';
+  import { webumeStore } from '../data/stores.js';
 
   export let profile;
+  webumeStore.set(profile);
 </script>
 
 <svelte:head>
   <title>conklin.dev - Justin Conklin - Software Engineer Portfolio</title>
 </svelte:head>
-<SuperHero {profile} />
-<Experience {profile} />
-<Technologies {profile} />
+<SuperHero />
+<Experience />
+<Technologies />
 <!-- TODO: Projects? -->

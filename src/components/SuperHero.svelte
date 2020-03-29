@@ -1,6 +1,7 @@
 <script>
   import { SOCIAL_MEDIA } from '../data/social-media';
   import Icon from 'svelte-awesome/components/Icon.svelte';
+  import { webumeStore } from '../data/stores.js';
 
   export let profile;
 
@@ -91,15 +92,15 @@
 <div class="superhero" id="top">
   <section class="person">
     <h2>
-      {profile.firstName}
+      {$webumeStore.firstName}
       <br />
-      {profile.lastName}
+      {$webumeStore.lastName}
     </h2>
-    <h3>{profile.title}</h3>
-    <h3>{profile.currentLocation}</h3>
+    <h3>{$webumeStore.title}</h3>
+    <h3>{$webumeStore.currentLocation}</h3>
   </section>
   <section class="social">
-    {#each profile.social as socialProfile}
+    {#each $webumeStore.social as socialProfile}
       <a
         href="{getSocialNetwork(socialProfile.id).route}{socialProfile.username}"
         target="_blank"

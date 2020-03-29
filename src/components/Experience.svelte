@@ -2,8 +2,7 @@
   import SectionHeader from './SectionHeader.svelte';
   import Timeline from './Timeline.svelte';
   import TimelinePosition from './TimelinePosition.svelte';
-
-  export let profile;
+  import { webumeStore } from '../data/stores.js';
 </script>
 
 <style>
@@ -16,7 +15,7 @@
 <section id="experience">
   <SectionHeader>Experience</SectionHeader>
   <Timeline>
-    {#each profile.experience as position}
+    {#each $webumeStore.experience as position}
       <TimelinePosition {position} />
     {/each}
   </Timeline>

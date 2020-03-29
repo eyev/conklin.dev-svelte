@@ -3,8 +3,8 @@
   import Tooltip from './Tooltip.svelte';
   import { ICONS } from '../assets/icons';
   import Icon from 'svelte-awesome/components/Icon.svelte';
+  import { webumeStore } from '../data/stores.js';
 
-  export let profile;
   function getTechnologyIcon(id) {
     return ICONS.find(x => x[id]);
   }
@@ -44,7 +44,7 @@
   <SectionHeader>Technologies</SectionHeader>
   <h3>Languages & Supersets</h3>
   <div class="languages">
-    {#each profile.technologies.languages as language}
+    {#each $webumeStore.technologies.languages as language}
       <Tooltip bind:content="{language.name}">
         <Icon
           data="{getTechnologyIcon(language.id)}"
@@ -55,7 +55,7 @@
   </div>
   <h3>Frameworks, Libraries, & Tools</h3>
   <div class="frameworks">
-    {#each profile.technologies.frameworks as framework}
+    {#each $webumeStore.technologies.frameworks as framework}
       <Tooltip bind:content="{framework.name}">
         <Icon
           data="{getTechnologyIcon(framework.id)}"
