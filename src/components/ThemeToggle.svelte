@@ -40,9 +40,12 @@
 
 <button
   class="theme-toggle"
-  on:click={toggleTheme}
-  alt="Toggle theme - current theme: {theme}">
+  on:click="{toggleTheme}"
+  alt="Toggle theme - current theme: {theme}"
+  aria-label="Toggle theme - current theme: {theme}"
+>
   <Icon
-    data={theme === 'dark' ? lightBulbOn : lightBulbSlash}
-    style="margin-top: .1rem;" />
+    data="{theme === 'dark' ? lightBulbOn : lightBulbSlash}"
+    style="margin-top: .1rem;"
+  />
 </button>
