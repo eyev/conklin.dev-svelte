@@ -42,7 +42,7 @@ body {
   background: var(--body-background);
   color: #e0e0e0;
   color: var(--body-color);
-  transition: background 0.3s;
+  transition: background 0.3s ease-in;
 }
 
 /* cyrillic-ext */
