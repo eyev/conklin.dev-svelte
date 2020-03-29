@@ -103,6 +103,7 @@
       <a
         href="{getSocialNetwork(socialProfile.id).route}{socialProfile.username}"
         target="_blank"
+        rel="noopener"
       >
         <figure>
           <Icon
