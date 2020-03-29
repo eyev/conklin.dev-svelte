@@ -30,7 +30,7 @@
   }
 </style>
 
-<header>
+<header class="{segment === undefined ? 'home' : undefined}">
   <a href="#top" class="logo">conklin.dev</a>
   <Nav />
   <ThemeToggle />
