@@ -24,10 +24,10 @@
             "company": "Park Place Technologies",
             "position": "Developer III",
             "accomplishments": [
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project"
+                "A Lead Front End Developer in charge of maintaining a large customer facing application",
+                "Develop RESTful & OData endpoints for content delivery to the front end",
+                "Interface with customers & business to deliver functionality where needed",
+                "Develop strategies, plans, and timelines on how to accomplish high level goals that provide the business with results"
             ]
         },
         {
@@ -36,10 +36,10 @@
             "company": "WiredViews Inc.",
             "position": "Front End Developer, Lead UX Designer/Developer",
             "accomplishments": [
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project"
+                "Provided consultation & training with external development teams on how to build, structure, maintain, and deploy Angular applications",
+                "Interfaced with clients to diagnose their businesses needs and provide counsel, solutions, & a user experience that mitigate their weaknesses",
+                "Front End Developer on over 40 websites/projects, 10 Angular & AngularJS applications",
+                "Developed & designed internal strategies, tools, and applications to enhance our ability to deliver web solutions more efficiently"
             ]
         },
         {
@@ -48,10 +48,10 @@
             "company": "United States Air Force",
             "position": "Law Enforcement Patrolmen",
             "accomplishments": [
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project",
-                "I did some dope stuff, for a dope project"
+                "Maintained a perfect \"5\" Enlisted Performance Report",
+                "Hand chosen as dedicated security for General Petraeus and General Allen",
+                "Personally recognized by General Petraeus and General Allen for excellence in service",
+                "Spearheaded efforts on creation of Bike Patrol program"
             ]
         }
     ],
