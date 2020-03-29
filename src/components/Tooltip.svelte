@@ -9,7 +9,6 @@
 
   .tooltip {
     position: relative;
-    cursor: pointer;
     text-align: center;
   }
 
